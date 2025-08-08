@@ -137,7 +137,7 @@ def lihat_jadwal():
         return jsonify(jadwal)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
+#komen
 
 if __name__ == '__main__':
     # Mengambil port dari environment variable PORT yang disediakan oleh Railway
